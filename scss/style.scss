@@ -21,8 +21,13 @@ body {
   img {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px 6px aquamarine;
+  -webkit-transition: 2s;
+  -webkit-transform: 2s;
   &:hover {
   -webkit-filter: invert(100%);
+  -webkit-transform: rotate(10deg);
   }
   }
 
